@@ -1,0 +1,16 @@
+name: sagemaker-practice
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python==3.10.*
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - scipy
+    - sklearn
+    - gensim
+    - japanize-matplotlib
+    - pandas
+    - tsfresh
